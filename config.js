@@ -20,7 +20,7 @@ module.exports = {
   packname:  process.env.PACK_NAME || 'MADE BY ❛❥༊𝗥𝗨𝗣༆𝗕𝗢𝗧𝘇 𝗜𝗡𝗖༊❥',
   
   botname:   process.env.BOT_NAME === undefined ? "SITHUWA-MD" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'sithumkalhara' : process.env.OWNER_NAME,  
+  ownername: process.env.OWNER_NAME === undefined ? '❛❥༊𝗥𝗨𝗣༆𝗕𝗢𝗧𝘇 𝗜𝗡𝗖༊❥' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
